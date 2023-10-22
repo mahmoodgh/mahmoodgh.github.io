@@ -10,28 +10,28 @@ name: Mahmood GholipourChoubeh
 title: Software developer
 email: mahmood.gholipour@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+# phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+# website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
+# twitter_username: jekyllrb
 github_username:  mahmoodgh
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
+  # stackoverflow_username: "00000001"
+  #dribbble_username: jekyll
+  #facebook_username: jekyll
+  #flickr_username: jekyll
+  #instagram_username: jekyll
 linkedin_username: mahmood-gholipour
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+  #xing_username: jekyll
+  #pinterest_username: jekyll
+  #youtube_username: jekyll
+  #orcid_username: 0000-0000-0000-0000
+  #googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
@@ -50,66 +50,119 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs 
+  Hi, my name's Mahmood and I am an Experienced System-Level Developer specializing in networking and software with a proven track record of designing, developing, and optimizing complex, high-performance systems. Proficient in network protocols, network security, and linux-based systems, I excel in creating efficient, scalable software solutions. Skilled in debugging, I have a keen eye for detail and a passion for solving intricate technical challenges.  
+  
+  I am a highly motivated and academically accomplished professional with a Master's degree in Computer Science, earned in 2013, and a more recent Master's degree in Information Systems Security, completed in 2023. My educational background spans a decade of expertise in the field of computer science, complemented by cutting-edge knowledge in information systems security. 
+  
+  Proficient in programming languages such as C++, Python, and Bash scripting, and experienced in networking tools and platforms including IPTables, DPDK, and VPP framework . Adept at container orchestration with Kubernetes and skilled in 5G Core Network technologies, particularly Free5GC.
+  
+  By relying on my strong problem-solving, teamwork, and effective communication skills complement my technichal skills, I am Looking to leverage my expertise in a challenging role that drives innovation and excellence
+  
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  - title: Projects # Title for the section
+  - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: Concordia University
+        link: 
+        link_text: 
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
+           Master of Science in Information Systems Security, Montreal, Quebec, Canada, 2023
+          
+        description: | #this will include new lines to allow paragraphs
+          - Thesis: Building Cross-Cluster Security Models for Edge-Core Env. Involving Multiple Kubernetes Clusters
+          - Academic Supervisors: Dr. Lingyu Wang, Dr. Suryadipta Majumdar
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Tehran University
+        link: 
+        link_text: 
+        additional_links:
+        quote: >
+           Master’s in Computer Engineering, University of Tehran, Tehran, Iran, 2013
+          
+        description: | #this will include new lines to allow paragraphs
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Arak University
+        link: 
+        link_text: 
+        additional_links:
+        quote: >
+            Bachelor’s in Computer Engineering, Arak University, Iran, 2009
+          
+        description: | #this will include new lines to allow paragraphs
+
+
+  - title: Work and Industrial Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left
+        title: NSERC/Ericsson
+        sub_title: Researcher and Developer
+        caption: Sep. 2020 - Aug. 2023
+        link: https://arc.encs.concordia.ca/index.html
         quote: >
-          Short description of the company (optional)
+          M.Sc. Student (R&D) in the project ”Compliance-based security in NFV/SDN with application to 5G”
         description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+          - Developed an approach to build a cross-cluster security model for edge-core environment involving multiple kubernetes clusters
+          - Collaborated with a team from academia and industry to provide a proactive security policy enforcement 
+            for containers and the development of a proof of concept
+          - Modified Free5GC source codes to increase the precision of logs timestamps (Merged into vendor’s official code base)
+          - Deployed a multi-Kubernetes cluster version of Free5GC
+          - Deployed a testbed in dedicated servers to provide a container based environment (single and multiple-cluster version) orchestrated by Kubernetes
+          - Contributed in technical presentations and demos in project steering and in major industrial event at Ericsson
+      - layout: left
+        title: Faraz Pajohan, Tehran, Iran
+        sub_title: Researcher and Developer
+        caption: July. 2016 - July. 2020
+        link:
         quote: >
-          Short institution or course description (optional)
+          Researcher and Developer in a 8-member team to deploy next-generation network appliances
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+          - Contributed in developing a high throughput enterprise-grade firewall (development approach TDD)
+          - Used Intel’s DPDK to boost packet processing performance
+          - Contributed in developing high-throughput network appliances based on VPP platform
+          - Contributed to the implementation of stateful and zone-based policy features 
+      - layout: left
+        title: Faraz Pajohan, Tehran, Iran
+        sub_title: Software Developer
+        caption: October. 2015 - July. 2016
+        link: 
+        quote: >
+          System level Developer to deploy linux-based firewall
+        description: | # this will include new lines to allow paragraphs
+          - Member of a Linux-based firewall development team (following SCRUM methodology)
+          - Contributed in Developing an enterprise-grade firewall (development approach TDD)
+          - Developed and implemented multiple features within Netfilter architecture, including filtering, 
+            redirection, NAT, and more, which contributed to my proficiency
+          - Set up and Configured IPTABLES, IPSET, EBTABLES, IPROUTE2 tools
+          - Contributed to the implement of ”Auth-Redirect” and ”Load Balancing” features
+  - title: Technichal Skills and Tools
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      - **Programming** **Languages:** Proficient in C/C++, Python, Bash Scripting; exposed to Java, C#
+      - **Networking tools & platforms:** IPTables, Ebtables, Wireshark, Vector Packet Processing (VPP) framework,
+      - **Data Plane Development:** Kit (DPDK), Packet Tracer, Gns3, PktGen, TRex
+      - **Container Technologies and Tools:** Kubernetes, Docker, Submariner
+      - **IDE and Code Editor:** VSCode, CLion, Code::Blocks, Vim
+      - **5G Core Network:** Free5GC
+      - **Software development:** methodology and framework Agile, Scrum
+      - **Version Control:** SVN, Git
+      - **Typesetting:** LATEX, Vim, MS Office     
+      
+#This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+#Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
