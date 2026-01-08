@@ -54,9 +54,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs 
   Hi!,
   
-  I'm Mahmood, an experienced System-Level Software Engineer specializing in networking and software engineering, with a proven track record of designing, developing, and optimizing complex, high-performance systems. Proficient in network protocols, network security, and Linux-based systems, I excel in creating efficient, scalable software solutions. With a keen eye for detail and a passion for solving intricate technical challenges.
-  
-  I hold a Master's degree in Computer Engineering, earned in 2013 from Tehran University, and a more recent Master's degree in Information Systems Security from Concordia University, completed in 2023. My expertise extends to SDN/NFV/Network security, and I have a strong background in Kubernetes and other container technologies, enabling me to efficiently manage modern software deployment and orchestration. In addition, I possess in-depth knowledge and experience in IPTables, VPP, and DPDK, critical tools and frameworks in network security and high-performance systems. 
+  System-Level Software Engineer with experience in Linux-based C and C++ development, specializing in distributed motion control systems. Skilled in designing extensible APIs, implementing multithreaded and concurrent components, and developing high-reliability server-side software. Fast learner, self-motivated, and a team player with strong communication skills. Experienced in debugging complex systems, refactoring code, and improving software quality through automated testing. In addition to technical expertise, I have a keen eye for detail and a passion for solving intricate technical challenges, with additional experience in networking and network security.
   
   I am actively seeking a challenging role where I can leverage my extensive technical skills, problem-solving abilities, and effective communication to drive innovation and excellence.  
 content:
