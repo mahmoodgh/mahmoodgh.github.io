@@ -98,11 +98,32 @@ content:
         description: | #this will include new lines to allow paragraphs
 
 
-  - title: Work and Industrial Experience
+  - title: Recent Work and Industrial Experience
     layout: list
     content:
       - layout: left
-        title: NSERC/Ericsson
+        title: Polaris Motion Co.
+        sub_title: System Software Engineer
+        caption: Jun. 2024 - Jan. 2026
+        link: 
+        quote: >
+          MAIN SKILLS & TOOLS: C/C++, Python, Bash, Linux, GDB, CMake, VSCode, Git, Agile/Scrum
+        description: | # this will include new lines to allow paragraphs
+          - Designed, developed, and maintained high-performance system software using C++ in Linux environments
+          - Integrated autotuning functionality by implementing control algorithms provided by the control engineering team
+          - Developed and exposed public APIs in C++ enabling customers to customize handwheel thread behavior
+          - Implemented event-driven mechanisms and queues for G-code param to enable monitoring runtime changes
+          - Contributed to auto-configuration capabilities using XML and XSD to support correct device detection
+          - Modernized legacy code by refactoring and redesigning in modern C++, improving system robustness
+          - Developed automated regression & unit tests using Google Test to improve reliability and prevent regressions
+          - Debugged and troubleshot complex customer-reported issues using GDB, Valgrind, core dumps, and system logs to identify root causes and implement fixes
+          - Collaborated with cross-functional teams (firmware, control, QA) to deliver new features and resolve issues
+          - Worked with Git-based development workflows, including feature branching, pull requests, and code reviews, to maintain code quality and consistency
+          - Participated in Agile/Scrum development processes, technical discussions, and sprint planning activities   
+    layout: list
+    content:
+      - layout: left
+        title: ARC lab. NSERC Program (Concordia + Ericsson)
         sub_title: Researcher and Developer
         caption: Sep. 2020 - Aug. 2023
         link: https://arc.encs.concordia.ca/index.html
@@ -116,44 +137,18 @@ content:
           - Deployed a multi-Kubernetes cluster version of Free5GC
           - Deployed a testbed in dedicated servers to provide a container based environment (single and multiple-cluster version) orchestrated by Kubernetes
           - Contributed in technical presentations and demos in project steering and in major industrial event at Ericsson
-      - layout: left
-        title: Faraz Pajohan, Tehran, Iran
-        sub_title: Researcher and Developer
-        caption: July. 2016 - July. 2020
-        link:
-        quote: >
-          Researcher and Developer in a 8-member team to deploy next-generation network appliances
-        description: | # this will include new lines to allow paragraphs
-          - Contributed in developing a high throughput enterprise-grade firewall (development approach TDD)
-          - Used Intel’s DPDK to boost packet processing performance
-          - Contributed in developing high-throughput network appliances based on VPP platform
-          - Contributed to the implementation of stateful and zone-based policy features 
-      - layout: left
-        title: Faraz Pajohan, Tehran, Iran
-        sub_title: Software Developer
-        caption: October. 2015 - July. 2016
-        link: 
-        quote: >
-          System level Developer to deploy linux-based firewall
-        description: | # this will include new lines to allow paragraphs
-          - Member of a Linux-based firewall development team (following SCRUM methodology)
-          - Contributed in Developing an enterprise-grade firewall (development approach TDD)
-          - Developed and implemented multiple features within Netfilter architecture, including filtering, 
-            redirection, NAT, and more, which contributed to my proficiency
-          - Set up and Configured IPTABLES, IPSET, EBTABLES, IPROUTE2 tools
-          - Contributed to the implement of ”Auth-Redirect” and ”Load Balancing” features
   - title: Technichal Skills and Tools
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - **Programming** **Languages:** Proficient in C/C++, Python, Bash Scripting; exposed to Java, C#
-      - **Networking tools & platforms:** IPTables, Ebtables, Wireshark, Vector Packet Processing (VPP) framework,
-      - **Data Plane Development:** Kit (DPDK), Packet Tracer, Gns3, PktGen, TRex
-      - **Container Technologies and Tools:** Kubernetes, Docker, Submariner
-      - **IDE and Code Editor:** VSCode, CLion, Code::Blocks, Vim
+      - **Programming Languages:** Proficient in C/C++, Python, Bash Scripting; exposed to Java, C#
+      - **Operarting Systems:** Linux, Unix, Windows
+      - **Tools and IDE:** Vim, VSCode, QTCreator, GDB, Valgrind, CMake
+      - **Software Development Practice:** OOP, TDD, SOLID, Agile/Scrum, CI/CD, Git and GitHub
+      - **Networking & Security:** Network+, CCNA, IPTables, Wireshark, VPP, DPDK, PktGen, TRex, TCPDump
+      - **Container Technologies and Tools:** Kubernetes, Docker
       - **5G Core Network:** Free5GC
-      - **Software development:** methodology and framework Agile, Scrum
-      - **Version Control:** SVN, Git
-      - **Typesetting:** LATEX, Vim, MS Office     
+      - **Collaboration & Project Tools:** Git, Jira, Confluence, Upsource
+      - **Motion Control:** CNC, G-code, distributed motion control platforms
       
 #This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
