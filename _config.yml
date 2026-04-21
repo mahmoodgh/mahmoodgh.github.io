@@ -120,8 +120,6 @@ content:
           - Collaborated with cross-functional teams (firmware, control, QA) to deliver new features and resolve issues
           - Worked with Git-based development workflows, including feature branching, pull requests, and code reviews, to maintain code quality and consistency
           - Participated in Agile/Scrum development processes, technical discussions, and sprint planning activities   
-    layout: list
-    content:
       - layout: left
         title: ARC lab. NSERC Program (Concordia + Ericsson)
         sub_title: Researcher and Developer
